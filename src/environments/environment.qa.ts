@@ -1,6 +1,5 @@
 export const environment = {
-  production: true,
-    ambiente: 'production',
+    production: false,
+    ambiente: 'qa',
     ip: 'http://localhost:'
   };
-

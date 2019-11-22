@@ -1,0 +1,34 @@
+<div class="modal-header">
+    <h4 class="modal-title">Create New Client</h4>
+</div>
+<form [formGroup]="client">
+<div class="modal-body">
+
+    <div>
+        <label for="Name"> Name</label>
+        <input id="Name" type="text"  formControlName="name"/>
+    </div>
+
+    <div>
+        <label for="Phone"> Phone</label>
+        <input id="Phone" type="text" formControlName="phone" />
+    </div>
+    <div>
+        <label for="E-mail"> E-mail</label>
+        <input id="E-mail" type="text" formControlName="email" />
+    </div>
+    <div>
+        <label for="Start-Date"> Start Date</label>
+        <input id="Start-Date" type="date" formControlName="startDate"/>
+    </div>
+    <div>
+        <label for="End-Date">End Date</label>
+        <input id="End-Date" type="date" formControlName="endDate" />
+    </div>
+</div>
+</form>
+<div class="modal-footer">
+    <button (click)="submit()">
+        OK
+    </button>
+</div>
