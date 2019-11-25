@@ -5,6 +5,6 @@ import { Injectable } from '@angular/core';
   })
 export class DevPorts {
 
-    public generalPort = '8080/';
+    public generalPort = '8689/';
  
 }

@@ -6,6 +6,6 @@ import { Injectable } from '@angular/core';
   export class QAPorts {
     
 
-    public generalPort = '8080/';
+    public generalPort = '8689/';
  
 }
