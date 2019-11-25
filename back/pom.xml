@@ -11,7 +11,7 @@
 	<groupId>com.alianza.Api</groupId>
 	<artifactId>adminclientes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>adminclientes</name>
 	<description>AdministracionClientes</description>
 
